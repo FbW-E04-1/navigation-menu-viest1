@@ -1,0 +1,50 @@
+/* Show navigation bar as a fixed column on the left */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 14rem;
+  height: 100vh;
+
+  /* Set background and border details? */
+  background-color: rgba(255,255,255,0.8);
+}
+
+
+nav div.alias {
+  /* Distinguish links to aliases and
+   * functions from general explanations
+   */
+}
+
+nav code {
+  /* Show <code> tags in a distinct way? */
+}
+
+nav a {
+  /* Use `display:` to show links as a column
+   * rather than all in one continuous line
+   */
+}
+
+nav a:hover {
+  /* Provide visual feedback for mouse over */
+}
+
+nav a:active {
+  /* Provide visual feedback when link is
+   * pressed
+   */
+}
+
+nav a:visited {
+  /* Provide visual feedback for a visited
+   * section
+   */
+}
+
+main {
+  /* Provide padding to the left so that the
+   * main text is not hidden behind the menu
+   */
+}
