@@ -5,9 +5,10 @@ nav {
   left: 0;
   width: 14rem;
   height: 100vh;
-
   /* Set background and border details? */
-  background-color: rgba(255,255,255,0.8);
+  background-color: rgb(36, 28, 44);
+  border-right:6px solid grey;
+  
 }
 
 
@@ -15,36 +16,52 @@ nav div.alias {
   /* Distinguish links to aliases and
    * functions from general explanations
    */
+   color:black;
 }
 
 nav code {
   /* Show <code> tags in a distinct way? */
+  color:grey;
+  font-weight:800;
+  font-size:1rem;
 }
 
 nav a {
   /* Use `display:` to show links as a column
    * rather than all in one continuous line
    */
+   color:black;
+   font-weight:800;
+   display:block;
+   padding-top:1rem;
+   font-size:1rem;
 }
 
 nav a:hover {
   /* Provide visual feedback for mouse over */
+  border:2px solid black;
+  text-decoration:none;
 }
 
 nav a:active {
   /* Provide visual feedback when link is
    * pressed
    */
+   text-decoration: underline;
+   text-transform: uppercase;
+   background:blue;
 }
 
 nav a:visited {
   /* Provide visual feedback for a visited
    * section
    */
+   color:brown;
 }
 
 main {
   /* Provide padding to the left so that the
    * main text is not hidden behind the menu
    */
+   padding-left:14rem;
 }
